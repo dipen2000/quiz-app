@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 
+/******************* importing the core styles **************/
+@import "./reset.css";
+
 /******************* importing the zest UI ******************/
 @import url("https://focused-wiles-143c98.netlify.app/CSS/zest.css");
 
 :root{
     --heading-font : 'Roboto Serif', sans-serif;
+}
+
+.mg-sides-auto{
+    margin : 0 auto;
 }
 
 .txt-align-center{
@@ -19,8 +26,26 @@
     margin-top : 2rem;
 }
 
-.mg-sides-auto{
-    margin : 0 auto;
+.mb-3{
+    margin-bottom : 3rem;
+}
+
+.mt-5{
+    margin-top : 5rem;
+}
+
+.mb-5{
+    margin-bottom: 5rem;
+}
+
+.mt-11{
+    margin-top : 11rem;
+}
+
+.flex-col{
+    display : flex;
+    justify-content: center;
+    align-items : center;
 }
 
 .container{
@@ -41,6 +66,22 @@ main{
 
 .main-container{
     border : 3px solid green;
+}
+
+ol{
+    font-family: var(--nav-list-items-font);
+}
+
+.rules-list{
+    list-style: decimal;
+}
+
+.rules-container{
+    border : 3px solid yellow;
+    display : flex;
+    flex-direction: column;
+    gap : 3rem;
+    width : 60%;
 }
 
 
