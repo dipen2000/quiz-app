@@ -30,6 +30,10 @@
     margin-bottom : 3rem;
 }
 
+.mt-3{
+    margin-top : 3rem;
+}
+
 .mt-5{
     margin-top : 5rem;
 }
@@ -41,6 +45,37 @@
 .mt-11{
     margin-top : 11rem;
 }
+
+.curs-point{
+    cursor: pointer;
+}
+
+.flex-row{
+    display : flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display : flex;
+    flex-direction: column;
+}
+
+.gap-3{
+    gap : 3rem;
+}
+
+.gap-2{
+    gap : 2rem;
+}
+
+.justify-sp-betwn{
+    justify-content : space-between;
+}
+
+.justify-center{
+    justify-content : center;
+}
+
 
 .flex-col{
     display : flex;
@@ -99,7 +134,7 @@ ol{
     flex-direction: column;
     padding : 1.2rem;
     width : 35rem;
-    gap : 10px;
+    gap : 1rem;
     border-radius: 0.8rem;
     background-color : var(--light-test-color);
     cursor : pointer;
@@ -123,3 +158,19 @@ ol{
     background-color : var(--background-color);
 }
 
+.question-container{
+    /* border : 3px solid blue; */
+    width : 60%;
+    max-width: 60rem;
+    padding : 1rem;
+    border-radius: 1rem;
+    background-color : var(--light-test-color);
+}
+
+.options-btn-container{
+    /* border : 3px solid purple; */
+    background-color : var(--background-color);
+    width : 100%;
+    border-radius: 1rem;
+    padding : 1rem;
+}
