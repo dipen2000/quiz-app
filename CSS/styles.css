@@ -5,7 +5,7 @@
 @import "./theme.css";
 
 /******************* importing the zest UI ******************/
-@import url("https://deploy-preview-11--focused-wiles-143c98.netlify.app/CSS/zest.css");
+@import url("https://zestui.netlify.app/CSS/zest.css");
 
 :root{
     --heading-font : 'Roboto Serif', sans-serif;
