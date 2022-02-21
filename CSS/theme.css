@@ -1,0 +1,13 @@
+body{
+    --background-color : #fffafa;
+    color : black;
+    --primary-color :  #6366F1;
+    --bg-color-for-containers :  #fffafa;
+}
+
+body.dark{
+    --background-color :  #242323;
+    color : white;
+    --primary-color :  #4F46E5;
+    --bg-color-for-containers : #663399;
+}
