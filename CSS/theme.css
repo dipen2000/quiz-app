@@ -1,3 +1,8 @@
+:root{
+    --dark-mode-toggle-bg-color : #111;
+    --toggle-ball-color : #fff;
+}
+
 body{
     --background-color : #fffafa;
     color : black;

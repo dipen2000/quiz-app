@@ -196,7 +196,7 @@ ol{
 }
   
 .checkbox-label {
-    background-color: #111;
+    background-color: var(--dark-mode-toggle-bg-color);
     width: 50px;
     height: 26px;
     border-radius: 50px;
@@ -213,7 +213,7 @@ ol{
 .fa-sun {color: var(--sun-color);}
   
 .checkbox-label .ball {
-    background-color: #fff;
+    background-color: var(--toggle-ball-color);
     width: 22px;
     height: 22px;
     position: absolute;
